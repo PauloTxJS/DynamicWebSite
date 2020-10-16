@@ -1,0 +1,15 @@
+Rodar o projeto usando nodemon
+## nodemon app.js
+
+Permitir acesso a API
+## npm install --save cors
+
+
+Iniciar o MongoDB
+    sudo systemctl start mongod
+
+Gerar backup banco de dados MongoDB
+    mongodump --db nomeDoBanco --out localOndeSeraGeradoOBackup
+
+Restaurar o backup do banco de dados MongoDB
+    mongorestore --db nomeDoBanco caminhoDoBackup
