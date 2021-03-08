@@ -22,7 +22,7 @@ app.use(
     express.static(path.resolve(__dirname, 'tmp', 'uploads'))
 );
 
-mongoose.connect('mongodb://localhost/celke', { 
+mongoose.connect('mongodb://localhost/dynamicwebsite', { 
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
