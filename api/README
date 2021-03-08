@@ -1,15 +1,17 @@
-Rodar o projeto usando nodemon
-## nodemon app.js
+# API Dynamic Website
 
-Permitir acesso a API
-## npm install --save cors
+## Technologies used
+* NodeJS
+* Express
+* MongoDB
 
+## To run the project
+1. Open a terminal in the project folder.
+2. Download the dependencies with the command: **npm install**
+3. Run the project with the command: **nodemon app.js**
 
-Iniciar o MongoDB
-    sudo systemctl start mongod
+## To back up the MongoDB database
+* **mongodump --db dynamicwebsite --out location_where_the_backup_will_be_generated**
 
-Gerar backup banco de dados MongoDB
-    mongodump --db nomeDoBanco --out localOndeSeraGeradoOBackup
-
-Restaurar o backup do banco de dados MongoDB
-    mongorestore --db nomeDoBanco caminhoDoBackup
+## Restore the MongoDB database backup
+* **mongorestore --db dynamicwebsite location_where_the_backup_was_generated**
